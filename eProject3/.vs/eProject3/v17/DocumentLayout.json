@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\hieun\\NEXUS-SERVICE-MARKETING-SYSTEM-3\\eProject3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AB770763-8960-4067-8FF0-8F2F36D38506}|eProject3\\eProject3.csproj|c:\\users\\hieun\\nexus-service-marketing-system-3\\eproject3\\eproject3\\controllers\\emplooyeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB770763-8960-4067-8FF0-8F2F36D38506}|eProject3\\eProject3.csproj|solutionrelative:eproject3\\controllers\\emplooyeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB770763-8960-4067-8FF0-8F2F36D38506}|eProject3\\eProject3.csproj|c:\\users\\hieun\\nexus-service-marketing-system-3\\eproject3\\eproject3\\views\\emplooyees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB770763-8960-4067-8FF0-8F2F36D38506}|eProject3\\eProject3.csproj|solutionrelative:eproject3\\views\\emplooyees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB770763-8960-4067-8FF0-8F2F36D38506}|eProject3\\eProject3.csproj|c:\\users\\hieun\\nexus-service-marketing-system-3\\eproject3\\eproject3\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB770763-8960-4067-8FF0-8F2F36D38506}|eProject3\\eProject3.csproj|solutionrelative:eproject3\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB770763-8960-4067-8FF0-8F2F36D38506}|eProject3\\eProject3.csproj|c:\\users\\hieun\\nexus-service-marketing-system-3\\eproject3\\eproject3\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB770763-8960-4067-8FF0-8F2F36D38506}|eProject3\\eProject3.csproj|solutionrelative:eproject3\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AB770763-8960-4067-8FF0-8F2F36D38506}|eProject3\\eProject3.csproj|c:\\users\\hieun\\nexus-service-marketing-system-3\\eproject3\\eproject3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AB770763-8960-4067-8FF0-8F2F36D38506}|eProject3\\eProject3.csproj|solutionrelative:eproject3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB770763-8960-4067-8FF0-8F2F36D38506}|eProject3\\eProject3.csproj|c:\\users\\hieun\\nexus-service-marketing-system-3\\eproject3\\eproject3\\controllers\\emplooyeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB770763-8960-4067-8FF0-8F2F36D38506}|eProject3\\eProject3.csproj|solutionrelative:eproject3\\controllers\\emplooyeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB770763-8960-4067-8FF0-8F2F36D38506}|eProject3\\eProject3.csproj|c:\\users\\hieun\\nexus-service-marketing-system-3\\eproject3\\eproject3\\views\\emplooyees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB770763-8960-4067-8FF0-8F2F36D38506}|eProject3\\eProject3.csproj|solutionrelative:eproject3\\views\\emplooyees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB770763-8960-4067-8FF0-8F2F36D38506}|eProject3\\eProject3.csproj|c:\\users\\hieun\\nexus-service-marketing-system-3\\eproject3\\eproject3\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -23,10 +39,6 @@
       "RelativeMoniker": "D:0:0:{AB770763-8960-4067-8FF0-8F2F36D38506}|eProject3\\eProject3.csproj|solutionrelative:eproject3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB770763-8960-4067-8FF0-8F2F36D38506}|eProject3\\eProject3.csproj|c:\\users\\hieun\\nexus-service-marketing-system-3\\eproject3\\eproject3\\controllers\\brandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB770763-8960-4067-8FF0-8F2F36D38506}|eProject3\\eProject3.csproj|solutionrelative:eproject3\\controllers\\brandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AB770763-8960-4067-8FF0-8F2F36D38506}|eProject3\\eProject3.csproj|c:\\users\\hieun\\nexus-service-marketing-system-3\\eproject3\\eproject3\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{AB770763-8960-4067-8FF0-8F2F36D38506}|eProject3\\eProject3.csproj|solutionrelative:eproject3\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     }
@@ -38,11 +50,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hieun\\NEXUS-SERVICE-MARKETING-SYSTEM-3\\eProject3\\eProject3\\Views\\Emplooyees\\Index.cshtml",
+              "RelativeDocumentMoniker": "eProject3\\Views\\Emplooyees\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hieun\\NEXUS-SERVICE-MARKETING-SYSTEM-3\\eProject3\\eProject3\\Views\\Emplooyees\\Index.cshtml",
+              "RelativeToolTip": "eProject3\\Views\\Emplooyees\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-19T09:06:45.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hieun\\NEXUS-SERVICE-MARKETING-SYSTEM-3\\eProject3\\eProject3\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "eProject3\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hieun\\NEXUS-SERVICE-MARKETING-SYSTEM-3\\eProject3\\eProject3\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "eProject3\\Views\\Products\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-19T09:06:20.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\hieun\\NEXUS-SERVICE-MARKETING-SYSTEM-3\\eProject3\\eProject3\\Views\\Emplooyees\\Create.cshtml",
+              "RelativeDocumentMoniker": "eProject3\\Views\\Emplooyees\\Create.cshtml",
+              "ToolTip": "C:\\Users\\hieun\\NEXUS-SERVICE-MARKETING-SYSTEM-3\\eProject3\\eProject3\\Views\\Emplooyees\\Create.cshtml",
+              "RelativeToolTip": "eProject3\\Views\\Emplooyees\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-19T09:04:06.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\hieun\\NEXUS-SERVICE-MARKETING-SYSTEM-3\\eProject3\\eProject3\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "eProject3\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\hieun\\NEXUS-SERVICE-MARKETING-SYSTEM-3\\eProject3\\eProject3\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "eProject3\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-19T09:03:56.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmplooyeesController.cs",
+              "DocumentMoniker": "C:\\Users\\hieun\\NEXUS-SERVICE-MARKETING-SYSTEM-3\\eProject3\\eProject3\\Controllers\\EmplooyeesController.cs",
+              "RelativeDocumentMoniker": "eProject3\\Controllers\\EmplooyeesController.cs",
+              "ToolTip": "C:\\Users\\hieun\\NEXUS-SERVICE-MARKETING-SYSTEM-3\\eProject3\\eProject3\\Controllers\\EmplooyeesController.cs",
+              "RelativeToolTip": "eProject3\\Controllers\\EmplooyeesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-19T09:02:30.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\hieun\\NEXUS-SERVICE-MARKETING-SYSTEM-3\\eProject3\\eProject3\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "eProject3\\Views\\_ViewStart.cshtml",
@@ -50,11 +127,12 @@
               "RelativeToolTip": "eProject3\\Views\\_ViewStart.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-01-19T08:45:43.003Z"
+              "WhenOpened": "2024-01-19T08:45:43.003Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\hieun\\NEXUS-SERVICE-MARKETING-SYSTEM-3\\eProject3\\eProject3\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "eProject3\\Views\\Home\\Index.cshtml",
@@ -66,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\hieun\\NEXUS-SERVICE-MARKETING-SYSTEM-3\\eProject3\\eProject3\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "eProject3\\Controllers\\HomeController.cs",
@@ -78,45 +156,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\hieun\\NEXUS-SERVICE-MARKETING-SYSTEM-3\\eProject3\\eProject3\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "eProject3\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\hieun\\NEXUS-SERVICE-MARKETING-SYSTEM-3\\eProject3\\eProject3\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "eProject3\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAAADQAAAAbAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAFIAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-01-19T08:45:43.054Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmplooyeesController.cs",
-              "DocumentMoniker": "C:\\Users\\hieun\\NEXUS-SERVICE-MARKETING-SYSTEM-3\\eProject3\\eProject3\\Controllers\\EmplooyeesController.cs",
-              "RelativeDocumentMoniker": "eProject3\\Controllers\\EmplooyeesController.cs",
-              "ToolTip": "C:\\Users\\hieun\\NEXUS-SERVICE-MARKETING-SYSTEM-3\\eProject3\\eProject3\\Controllers\\EmplooyeesController.cs",
-              "RelativeToolTip": "eProject3\\Controllers\\EmplooyeesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-01-19T08:45:43.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BrandsController.cs",
-              "DocumentMoniker": "C:\\Users\\hieun\\NEXUS-SERVICE-MARKETING-SYSTEM-3\\eProject3\\eProject3\\Controllers\\BrandsController.cs",
-              "RelativeDocumentMoniker": "eProject3\\Controllers\\BrandsController.cs",
-              "ToolTip": "C:\\Users\\hieun\\NEXUS-SERVICE-MARKETING-SYSTEM-3\\eProject3\\eProject3\\Controllers\\BrandsController.cs",
-              "RelativeToolTip": "eProject3\\Controllers\\BrandsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-01-19T08:45:43.057Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Model1.edmx",
               "DocumentMoniker": "C:\\Users\\hieun\\NEXUS-SERVICE-MARKETING-SYSTEM-3\\eProject3\\eProject3\\Models\\Model1.edmx",
               "RelativeDocumentMoniker": "eProject3\\Models\\Model1.edmx",
