@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NexusmarketingModelStoreContainer" CdmEntityContainer="NexusmarketingEntities">
+    <EntitySetMapping Name="Brands">
+      <EntityTypeMapping TypeName="NexusmarketingModel.Brand">
+        <MappingFragment StoreEntitySet="Brand">
+          <ScalarProperty Name="BrandId" ColumnName="BrandId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="NexusmarketingModel.Customer">
+        <MappingFragment StoreEntitySet="Customers">
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Phone_Number" ColumnName="Phone_Number" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="created_at" ColumnName="created_at" />
+          <ScalarProperty Name="customerName" ColumnName="customerName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Emplooyees">
+      <EntityTypeMapping TypeName="NexusmarketingModel.Emplooyee">
+        <MappingFragment StoreEntitySet="Emplooyee">
+          <ScalarProperty Name="Employee_ID" ColumnName="Employee_ID" />
+          <ScalarProperty Name="EmployeeName" ColumnName="EmployeeName" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="phone_number" ColumnName="phone_number" />
+          <ScalarProperty Name="created_at" ColumnName="created_at" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Groups">
+      <EntityTypeMapping TypeName="NexusmarketingModel.Group">
+        <MappingFragment StoreEntitySet="Groups">
+          <ScalarProperty Name="groupID" ColumnName="groupID" />
+          <ScalarProperty Name="groupName" ColumnName="groupName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ojbects">
+      <EntityTypeMapping TypeName="NexusmarketingModel.ojbect">
+        <MappingFragment StoreEntitySet="ojbect">
+          <ScalarProperty Name="ojbectID" ColumnName="ojbectID" />
+          <ScalarProperty Name="ojbectName" ColumnName="ojbectName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Order_details">
+      <EntityTypeMapping TypeName="NexusmarketingModel.Order_details">
+        <MappingFragment StoreEntitySet="Order_details">
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="Service_ID" ColumnName="Service_ID" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orders">
+      <EntityTypeMapping TypeName="NexusmarketingModel.Order">
+        <MappingFragment StoreEntitySet="Orders">
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="OrderFristDate" ColumnName="OrderFristDate" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="delivered" ColumnName="delivered" />
+          <ScalarProperty Name="deliveredDate" ColumnName="deliveredDate" />
+          <ScalarProperty Name="Discount" ColumnName="Discount" />
+          <ScalarProperty Name="Employee_ID" ColumnName="Employee_ID" />
+          <ScalarProperty Name="payId" ColumnName="payId" />
+          <ScalarProperty Name="storeID" ColumnName="storeID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="OrderEndDate" ColumnName="OrderEndDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pays">
+      <EntityTypeMapping TypeName="NexusmarketingModel.Pay">
+        <MappingFragment StoreEntitySet="Pay">
+          <ScalarProperty Name="payId" ColumnName="payId" />
+          <ScalarProperty Name="payName" ColumnName="payName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductCategories">
+      <EntityTypeMapping TypeName="NexusmarketingModel.ProductCategory">
+        <MappingFragment StoreEntitySet="ProductCategory">
+          <ScalarProperty Name="CateID" ColumnName="CateID" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="sort" ColumnName="sort" />
+          <ScalarProperty Name="ParentID" ColumnName="ParentID" />
+          <ScalarProperty Name="created_at" ColumnName="created_at" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="NexusmarketingModel.Product">
+        <MappingFragment StoreEntitySet="Products">
+          <ScalarProperty Name="ProdutID" ColumnName="ProdutID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="PromotionPrice" ColumnName="PromotionPrice" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Warranty" ColumnName="Warranty" />
+          <ScalarProperty Name="Desription" ColumnName="Desription" />
+          <ScalarProperty Name="Detail" ColumnName="Detail" />
+          <ScalarProperty Name="BrandId" ColumnName="BrandId" />
+          <ScalarProperty Name="SupplierId" ColumnName="SupplierId" />
+          <ScalarProperty Name="created_at" ColumnName="created_at" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductServies">
+      <EntityTypeMapping TypeName="NexusmarketingModel.ProductServy">
+        <MappingFragment StoreEntitySet="ProductServies">
+          <ScalarProperty Name="ProdutID" ColumnName="ProdutID" />
+          <ScalarProperty Name="Service_ID" ColumnName="Service_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Services">
+      <EntityTypeMapping TypeName="NexusmarketingModel.Service">
+        <MappingFragment StoreEntitySet="Services">
+          <ScalarProperty Name="Service_ID" ColumnName="Service_ID" />
+          <ScalarProperty Name="ServiceName" ColumnName="ServiceName" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Stores">
+      <EntityTypeMapping TypeName="NexusmarketingModel.Store">
+        <MappingFragment StoreEntitySet="Store">
+          <ScalarProperty Name="storeID" ColumnName="storeID" />
+          <ScalarProperty Name="storeName" ColumnName="storeName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Suppliers">
+      <EntityTypeMapping TypeName="NexusmarketingModel.Supplier">
+        <MappingFragment StoreEntitySet="Supplier">
+          <ScalarProperty Name="SupplierId" ColumnName="SupplierId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="employeesGroup" TypeName="NexusmarketingModel.employeesGroup" StoreEntitySet="employeesGroup">
+      <EndProperty Name="Emplooyee">
+        <ScalarProperty Name="Employee_ID" ColumnName="Employee_ID" />
+      </EndProperty>
+      <EndProperty Name="ojbect">
+        <ScalarProperty Name="ojbectID" ColumnName="ojbectID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="GroupOjbect" TypeName="NexusmarketingModel.GroupOjbect" StoreEntitySet="GroupOjbect">
+      <EndProperty Name="Groups">
+        <ScalarProperty Name="groupID" ColumnName="groupID" />
+      </EndProperty>
+      <EndProperty Name="ojbect">
+        <ScalarProperty Name="ojbectID" ColumnName="ojbectID" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

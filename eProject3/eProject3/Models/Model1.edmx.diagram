@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b21a5e066e604fa3955cf7ce80da4344" Name="Diagram1">
+        <EntityTypeShape EntityType="NexusmarketingModel.Brand" Width="1.5" PointX="0.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NexusmarketingModel.Customer" Width="1.5" PointX="3.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="NexusmarketingModel.Emplooyee" Width="1.5" PointX="0.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NexusmarketingModel.Group" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="NexusmarketingModel.ojbect" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NexusmarketingModel.Order_details" Width="1.5" PointX="8.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NexusmarketingModel.Order" Width="1.5" PointX="6" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NexusmarketingModel.Pay" Width="1.5" PointX="3.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NexusmarketingModel.ProductCategory" Width="1.5" PointX="5.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NexusmarketingModel.Product" Width="1.5" PointX="7.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NexusmarketingModel.ProductServy" Width="1.5" PointX="8.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NexusmarketingModel.Service" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NexusmarketingModel.Store" Width="1.5" PointX="3.75" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NexusmarketingModel.Supplier" Width="1.5" PointX="0.75" PointY="11.125" IsExpanded="true" />
+        <AssociationConnector Association="NexusmarketingModel.FK__Orders__Customer__59FA5E80" ManuallyRouted="false" />
+        <AssociationConnector Association="NexusmarketingModel.FK__Orders__Employee__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="NexusmarketingModel.FK__Order_det__Order__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="NexusmarketingModel.FK__Order_det__Servi__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="NexusmarketingModel.FK__Orders__payId__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="NexusmarketingModel.FK__Orders__storeID__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="NexusmarketingModel.employeesGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="NexusmarketingModel.GroupOjbect" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

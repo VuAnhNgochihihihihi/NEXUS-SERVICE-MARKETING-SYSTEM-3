@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <style>
+        /* Add your custom styles here */
+        .navbar navbar-expand-sm .navbar-toggleable-sm navbar-dark bg-dark {
+            background-color: cadetblue;
+        }
+
+        .navbar-nav .nav-link {
+            color: #fff; /* Text color */
+        }
+
+            .navbar-nav .nav-link:hover {
+                color: #ffd700; /* Hover text color */
+            }
+
+        .navbar-toggler-icon {
+            border-color: #fff; /* Toggler icon color */
+        }
+
+        .navbar-toggler:hover {
+            background-color: #343a40; /* Toggler background color on hover */
+        }
+
+        .container {
+            margin-top: 10px; /* Adjust top margin */
+        }
+
+        footer {
+            background-color: cadetblue;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+
+        .footer-content {
+            margin-bottom: 20px;
+            align-self: flex-start;
+        }
+
+        h3 {
+            color: #ffcc00;
+        }
+    </style>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark" style="background-color: cadetblue;">
+        <a class="navbar-brand" href="#">    NEXUSS marketing</a>
+
+
+        <div class="container">
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Index", "Home", new { area = "" })">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("About", "Home", new { area = "" })">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Contact", "Home", new { area = "" })">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Index", "Emplooyees", new { area = "" })">Employees</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Index", "Products", new { area = "" })">Employees</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fa fa-line-chart"></i>
+                Digital Marketing
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link smoothScroll" style="color: cadetblue;">Login</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#project" class="nav-link smoothScroll" style="color: cadetblue;">Signin</a>
+                    </li>
+
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <div class="footer-container">
+                <div class="footer-content">
+                    <h3>Thông tin liên hệ</h3>
+                    <p>Địa chỉ: Your Address</p>
+                    <p>Email: your@email.com</p>
+                    <p>Điện thoại: (123) 456-7890</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NexusmarketingModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Brand">
+    <Key>
+      <PropertyRef Name="BrandId" />
+    </Key>
+    <Property Name="BrandId" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="CustomerID" />
+    </Key>
+    <Property Name="CustomerID" Type="Int32" Nullable="false" />
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="Phone_Number" Type="Int32" />
+    <Property Name="Address" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="created_at" Type="Binary" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+    <Property Name="customerName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Emplooyee">
+    <Key>
+      <PropertyRef Name="Employee_ID" />
+    </Key>
+    <Property Name="Employee_ID" Type="Int32" Nullable="false" />
+    <Property Name="EmployeeName" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="address" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="phone_number" Type="Int32" />
+    <Property Name="created_at" Type="Binary" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+  </EntityType>
+  <EntityType Name="Group">
+    <Key>
+      <PropertyRef Name="groupID" />
+    </Key>
+    <Property Name="groupID" Type="Int32" Nullable="false" />
+    <Property Name="groupName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="ojbect">
+    <Key>
+      <PropertyRef Name="ojbectID" />
+    </Key>
+    <Property Name="ojbectID" Type="Int32" Nullable="false" />
+    <Property Name="ojbectName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Order_details">
+    <Key>
+      <PropertyRef Name="OrderID" />
+      <PropertyRef Name="Service_ID" />
+    </Key>
+    <Property Name="Price" Type="Int32" />
+    <Property Name="OrderID" Type="Int32" Nullable="false" />
+    <Property Name="Service_ID" Type="Int32" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Order">
+    <Key>
+      <PropertyRef Name="OrderID" />
+    </Key>
+    <Property Name="OrderID" Type="Int32" Nullable="false" />
+    <Property Name="OrderFristDate" Type="DateTime" Precision="3" />
+    <Property Name="status" Type="Boolean" />
+    <Property Name="delivered" Type="Boolean" />
+    <Property Name="deliveredDate" Type="DateTime" Precision="3" />
+    <Property Name="Discount" Type="Int32" />
+    <Property Name="Employee_ID" Type="Int32" />
+    <Property Name="payId" Type="Int32" />
+    <Property Name="storeID" Type="Int32" />
+    <Property Name="CustomerID" Type="Int32" />
+    <Property Name="OrderEndDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Pay">
+    <Key>
+      <PropertyRef Name="payId" />
+    </Key>
+    <Property Name="payId" Type="Int32" Nullable="false" />
+    <Property Name="payName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="ProductCategory">
+    <Key>
+      <PropertyRef Name="CateID" />
+    </Key>
+    <Property Name="CateID" Type="Int32" Nullable="false" />
+    <Property Name="status" Type="Boolean" />
+    <Property Name="sort" Type="Int32" />
+    <Property Name="ParentID" Type="Int32" />
+    <Property Name="created_at" Type="Binary" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="ProdutID" />
+    </Key>
+    <Property Name="ProdutID" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="status" Type="Boolean" />
+    <Property Name="Image" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Int32" />
+    <Property Name="PromotionPrice" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="Quantity" Type="Int32" />
+    <Property Name="Warranty" Type="Int32" />
+    <Property Name="Desription" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Detail" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="BrandId" Type="Int32" />
+    <Property Name="SupplierId" Type="Int32" />
+    <Property Name="created_at" Type="Binary" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+  </EntityType>
+  <EntityType Name="ProductServy">
+    <Key>
+      <PropertyRef Name="ProdutID" />
+      <PropertyRef Name="Service_ID" />
+    </Key>
+    <Property Name="ProdutID" Type="Int32" Nullable="false" />
+    <Property Name="Service_ID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Service">
+    <Key>
+      <PropertyRef Name="Service_ID" />
+    </Key>
+    <Property Name="Service_ID" Type="Int32" Nullable="false" />
+    <Property Name="ServiceName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ProductID" Type="Int32" Nullable="false" />
+    <Property Name="CustomerID" Type="Int32" Nullable="false" />
+    <Property Name="EmployeeID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Store">
+    <Key>
+      <PropertyRef Name="storeID" />
+    </Key>
+    <Property Name="storeID" Type="Int32" Nullable="false" />
+    <Property Name="storeName" Type="String" MaxLength="18" FixedLength="true" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Supplier">
+    <Key>
+      <PropertyRef Name="SupplierId" />
+    </Key>
+    <Property Name="SupplierId" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="FK__Orders__Customer__59FA5E80">
+    <End Role="Customers" Type="Self.Customer" Multiplicity="0..1" />
+    <End Role="Orders" Type="Self.Order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customers">
+        <PropertyRef Name="CustomerID" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="CustomerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Orders__Employee__5AEE82B9">
+    <End Role="Emplooyee" Type="Self.Emplooyee" Multiplicity="0..1" />
+    <End Role="Orders" Type="Self.Order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Emplooyee">
+        <PropertyRef Name="Employee_ID" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="Employee_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Order_det__Order__5812160E">
+    <End Role="Orders" Type="Self.Order" Multiplicity="1" />
+    <End Role="Order_details" Type="Self.Order_details" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Orders">
+        <PropertyRef Name="OrderID" />
+      </Principal>
+      <Dependent Role="Order_details">
+        <PropertyRef Name="OrderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Order_det__Servi__59063A47">
+    <End Role="Services" Type="Self.Service" Multiplicity="1" />
+    <End Role="Order_details" Type="Self.Order_details" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Services">
+        <PropertyRef Name="Service_ID" />
+      </Principal>
+      <Dependent Role="Order_details">
+        <PropertyRef Name="Service_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Orders__payId__5BE2A6F2">
+    <End Role="Pay" Type="Self.Pay" Multiplicity="0..1" />
+    <End Role="Orders" Type="Self.Order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pay">
+        <PropertyRef Name="payId" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="payId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Orders__storeID__5CD6CB2B">
+    <End Role="Store" Type="Self.Store" Multiplicity="0..1" />
+    <End Role="Orders" Type="Self.Order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Store">
+        <PropertyRef Name="storeID" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="storeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="employeesGroup">
+    <End Role="Emplooyee" Type="Self.Emplooyee" Multiplicity="*" />
+    <End Role="ojbect" Type="Self.ojbect" Multiplicity="*" />
+  </Association>
+  <Association Name="GroupOjbect">
+    <End Role="Groups" Type="Self.Group" Multiplicity="*" />
+    <End Role="ojbect" Type="Self.ojbect" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="NexusmarketingEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Brands" EntityType="Self.Brand" />
+    <EntitySet Name="Customers" EntityType="Self.Customer" />
+    <EntitySet Name="Emplooyees" EntityType="Self.Emplooyee" />
+    <EntitySet Name="Groups" EntityType="Self.Group" />
+    <EntitySet Name="ojbects" EntityType="Self.ojbect" />
+    <EntitySet Name="Order_details" EntityType="Self.Order_details" />
+    <EntitySet Name="Orders" EntityType="Self.Order" />
+    <EntitySet Name="Pays" EntityType="Self.Pay" />
+    <EntitySet Name="ProductCategories" EntityType="Self.ProductCategory" />
+    <EntitySet Name="Products" EntityType="Self.Product" />
+    <EntitySet Name="ProductServies" EntityType="Self.ProductServy" />
+    <EntitySet Name="Services" EntityType="Self.Service" />
+    <EntitySet Name="Stores" EntityType="Self.Store" />
+    <EntitySet Name="Suppliers" EntityType="Self.Supplier" />
+    <AssociationSet Name="FK__Orders__Customer__59FA5E80" Association="Self.FK__Orders__Customer__59FA5E80">
+      <End Role="Customers" EntitySet="Customers" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Orders__Employee__5AEE82B9" Association="Self.FK__Orders__Employee__5AEE82B9">
+      <End Role="Emplooyee" EntitySet="Emplooyees" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Order_det__Order__5812160E" Association="Self.FK__Order_det__Order__5812160E">
+      <End Role="Orders" EntitySet="Orders" />
+      <End Role="Order_details" EntitySet="Order_details" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Order_det__Servi__59063A47" Association="Self.FK__Order_det__Servi__59063A47">
+      <End Role="Services" EntitySet="Services" />
+      <End Role="Order_details" EntitySet="Order_details" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Orders__payId__5BE2A6F2" Association="Self.FK__Orders__payId__5BE2A6F2">
+      <End Role="Pay" EntitySet="Pays" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Orders__storeID__5CD6CB2B" Association="Self.FK__Orders__storeID__5CD6CB2B">
+      <End Role="Store" EntitySet="Stores" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="employeesGroup" Association="Self.employeesGroup">
+      <End Role="Emplooyee" EntitySet="Emplooyees" />
+      <End Role="ojbect" EntitySet="ojbects" />
+    </AssociationSet>
+    <AssociationSet Name="GroupOjbect" Association="Self.GroupOjbect">
+      <End Role="Groups" EntitySet="Groups" />
+      <End Role="ojbect" EntitySet="ojbects" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
